@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ricardo´s Parker</title>
+    <title>Parking Management Solutions</title>
 </head>
 
 <body>
@@ -76,13 +76,14 @@
             object-fit: cover;
         }
 
-        .services-section,
+        .services-section,  
         .seccion-noticias,
-        .seccion-equipo {
+        .testimony-section {
             display: flex;
             margin-bottom: 100px;
         }
 
+        
         .seccion-noticias,
         .header-container{
             background-color: #f7f7f7
@@ -132,7 +133,7 @@
         }
 
         .team-info__imagen{
-            display: block;
+           
             margin-right: auto;
             margin-left: auto;
         }
@@ -143,27 +144,30 @@
         <div class="header-container">
 
             <div class="site-title">
-                <h1>Una web</h1>
+                <h1>Parking Management Solutions</h1>
             </div>
             
             <!-- Inicio menú navegación -->
             <nav class="site-nav">
-                <a href="#">Inicio</a>
+                <a href="#">Inicio</a> 
+                <a href="#somos">Quíenes Somos</a>               
                 <a href="#services">Servicios</a>
-                <a href="#news">Noticias</a>
-                <a href="#team">Nuestro equipo</a>
+                <a href="#testimony">Testimonios</a>
+
+                <a href="contact.html">Contacto</a>
+               
             </nav>
             <!-- Fin menú navegación -->
 
             
             
             <div class="logo-container">
-                <img class="logo-container__site-logo" src="./logomision.png" alt="Logo MisionTic 2022">
+                <img class="logo-container__site-logo" src="./parking1.png" alt="Parking Management Solutions  ">
             </div>
         </div>
             
         <div class="banner">
-            <img src="./banner.jpg" alt="A banner image">
+            <img src="./parking2.png" alt="A banner image">
         </div>
     </header>
 <!-- fin encabezado del sitio -->
@@ -173,12 +177,12 @@
     <main>
 
 
-        <h2>Servicios</h2>
-        <!-- inicio sección de servicios -->
-        <section id="services" class="services-section">
+        <h2>Quíenes somos</h2>
+        <!-- inicio sección quíenes somos -->
+        <section id="somos" class="services-section">
             <article class="services-info">
                 <img class="services-info__imagen" src="http://placeimg.com/200/200/nature" alt="">
-                <h2 class="services-info__title">Servicio 1</h2>
+                <h2 class="services-info__title">Historia</h2>
                 <p class="services-info__text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
                     voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
@@ -186,7 +190,7 @@
             </article>
             <article class="services-info">
                 <img class="services-info__imagen" src="http://placeimg.com/200/200/tech" alt="">
-                <h2 class="services-info__title">Servicio 2</h2>
+                <h2 class="services-info__title">Próposito</h2>
                 <p class="services-info__text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
                     voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
@@ -194,26 +198,28 @@
             </article>
             <article class="services-info">
                 <img class="services-info__imagen" src="http://placeimg.com/200/200/people" alt="">
-                <h2 class="services-info__title">Servicio 3</h2>
+                <h2 class="services-info__title">Políticas de Calidad</h2>
                 <p class="services-info__text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
                     voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
         </section>
-        <!-- fin sección de servicios -->
+        <!-- fin sección de quíenes somos -->
 
 
 
-        <h2>Noticias</h2>
-        <!-- inicio sección de noticias -->
-        <section id="news" class="news-section">
+        <h2>Servicios</h2>
+        <!-- inicio sección de servicios -->
+        <section id="services" class="services-section">
             <article class="news-info">
                 <div class="news-header">
                     <img class="news-info__imagen" src="http://placeimg.com/400/200/animals" alt="">
-                    <h2 class="news-info__title">Noticia 1</h2>
+                    <br>
+                    
                 </div>
                 <p class="news-info__text">
+                    <h4 class="news-info__title">Plan A</h4>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
                     voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
@@ -222,9 +228,10 @@
             <article class="news-info">
                 <div class="news-header">
                     <img class="news-info__imagen" src="http://placeimg.com/400/200/tech" alt="">
-                    <h2 class="news-info__title">Noticia 2</h2>
+                   
                 </div>
                 <p class="news-info__text">
+                    <h4 class="news-info__title">Plan B</h4>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
                     voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
@@ -233,36 +240,28 @@
             <article class="news-info">
                 <div class="news-header">
                     <img class="news-info__imagen" src="http://placeimg.com/400/200/arch" alt="">
-                    <h2 class="news-info__title">Noticia 3</h2>
+                    
                 </div>
                 <p class="news-info__text">
+                    <h4 class="news-info__title">Plan C</h4>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
                     voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
 
-            <article class="news-info">
-                <div class="news-header">
-                    <img class="news-info__imagen" src="http://placeimg.com/400/200/people" alt="">
-                    <h2 class="news-info__title">Noticia 4</h2>
-                </div>
-                <p class="news-info__text">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
-                    voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
-                </p>
-            </article>
+           
 
         </section>
-        <!-- fin sección de noticias -->
+        <!-- fin sección de servicios -->
 
 
-        <h2>Equipo</h2>
-        <!-- inicio sección de equipo -->
-        <section id="team" class="team-section">
+        <h2>Testimonios</h2>
+        <!-- inicio sección de testimonios -->
+        <section id="testimony" class="testimony-section">
 
             <article class="team-info">
                 <img class="team-info__imagen" src="http://placeimg.com/100/200/people" alt="">
-                <h2 class="team-info__title">Integrante 1</h2>
+                <h2 class="team-info__title">Cliente 1</h2>
                 <p class="team-info__text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
                     voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
@@ -271,7 +270,7 @@
 
             <article class="team-info">
                 <img class="team-info__imagen" src="http://placeimg.com/100/200/tech" alt="">
-                <h2 class="team-info__title">Integrante 2</h2>
+                <h2 class="team-info__title">Cliente 2</h2>
                 <p class="team-info__text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
                     voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
@@ -280,7 +279,7 @@
 
             <article class="team-info">
                 <img class="team-info__imagen" src="http://placeimg.com/100/200/nature" alt="">
-                <h2 class="team-info__title">Integrante 3</h2>
+                <h2 class="team-info__title">Cliente 3</h2>
                 <p class="team-info__text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
                     voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
@@ -289,7 +288,7 @@
 
             <article class="team-info">
                 <img class="team-info__imagen" src="http://placeimg.com/100/200/arch" alt="">
-                <h2 class="team-info__title">Integrante 4</h2>
+                <h2 class="team-info__title">Cliente 4</h2>
                 <p class="team-info__text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas
                     voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
@@ -297,13 +296,13 @@
             </article>
 
         </section>
-        <!-- fin sección de equipo -->
+        <!-- fin sección de testimonios -->
 
     </main>
     <!-- fin contenido principal -->
 
     <!-- Inicio pie del sitio -->
-    <footer class="footer-section">
+    <footer id ="contacto" class="footer-section">
         <article>
             <h2>Contacto</h2>
             <p>Aquí van varias lineas</p>
